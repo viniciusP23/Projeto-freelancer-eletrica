@@ -85,6 +85,46 @@ section.container-box {
     width: 95%;
     margin: 0 auto;
     padding-top: 100px;
-    background-color: aqua;
-    min-height: 100vh;
+    background-color: #FFAD2D;
+    min-height: 60vh;
+    margin-top: 120px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+section.container-box .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.container-box .box .box-txt h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+section.container-box .box .box-txt p {
+    font-size: 35px;
+    color: #fff;
+}
+
+section.container-box .box .box-txt button {
+    padding: 10px;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+section.container-box .box .box-txt button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+section.container-box .box .box-img img {
+    width: 230px;
+    transform: rotate(30deg);
 }
