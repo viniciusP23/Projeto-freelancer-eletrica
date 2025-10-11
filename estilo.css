@@ -171,3 +171,55 @@ section.meus-trabalhos {
 .meus-trabalhos .itens-container .img-itens img {
     width: 500px;
 }
+
+/* estilo do contratar */
+
+section.contratar {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.txt-contratar, .instrocoes {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.contratar .txt-contratar {
+    position: sticky;
+    top: 50%;
+    margin-bottom: 35px;
+}
+
+.contratar .txt-contratar h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contratar .txt-contratar h1 span {
+    color: #fca311;
+}
+
+.instrocoes .instru-box {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #fca311;
+}
+
+.instrocoes .instru-box .txt-instru-box h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.instrocoes .instru-box .txt-instru-box p {
+    font-size: 18px;
+}
+
+.instrocoes .instru-box .img-instru-bom img {
+    width: 60px;
+}
