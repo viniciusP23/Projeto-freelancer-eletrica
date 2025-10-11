@@ -223,3 +223,59 @@ section.contratar {
 .instrocoes .instru-box .img-instru-bom img {
     width: 60px;
 }
+
+/* estilos dos contatos */
+
+section.contatos {
+    padding: 80px 0;
+}
+
+.txt-contatos, .icons-contatos {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+.contatos .txt-contatos h1 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.contatos .txt-contatos h1 span {
+    font-weight: 800;
+    color: #fca311;
+}
+
+.contatos .txt-contatos p {
+    font-size: 20px;
+}
+
+.contatos .icons-contatos a {
+    text-decoration: none;
+}
+
+.contatos .icons-contatos button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    margin: 0 auto 20px auto;
+    width: 60%;
+    height: 60px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #000;
+    transition: 0.5s;
+}
+
+.contatos .icons-contatos button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.contatos .icons-contatos button i {
+    font-size: 24px;
+}
