@@ -1,0 +1,26 @@
+@media screen and (max-width: 1300px) {
+    .meus-trabalhos .itens-container .img-itens img {
+        width: 400px;
+    }
+
+    .container-box .box .box-img img{
+       margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu-desktop, .contato {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .container-box .box .box-img img {
+        display: none;
+    }
+
+    .container-box .box .box-txt {
+        text-align: center;
+    }    
+}
+

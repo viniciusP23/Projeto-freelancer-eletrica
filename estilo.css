@@ -126,7 +126,7 @@ section.container-box .box .box-txt button:hover {
 }
 
 section.container-box .box .box-img img {
-    width: 230px;
+    width: 230px; 
     transform: rotate(30deg);
 }
 
@@ -380,4 +380,16 @@ footer .bottom-footer {
 footer .bottom-footer p {
     color: #fff;
     margin-top: 10px;
+}
+
+/* animação lampada */
+
+@keyframes piscar {
+    0%  {opacity: 1; filter: brightness(1);}
+    10% {opacity: 0.8; filter: brightness(0.8);}
+    20% {opacity: 0.2; filter: brightness(0.4);}
+    25% {opacity: 1; filter: brightness(1);}
+    30% {opacity: 0.3; filter: brightness(0.6);}
+    40% {opacity: 1; filter: brightness(1);}
+    100% {opacity: 1; filter: brightness(1);}
 }
