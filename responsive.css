@@ -21,6 +21,139 @@
 
     .container-box .box .box-txt {
         text-align: center;
-    }    
+    }
+
+    /* meus trabalhos  */
+    
+    .meus-trabalhos .trabalhos {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .meus-trabalhos .trabalhos h1 {
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .meus-trabalhos .itens-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .meus-trabalhos .itens-container .txt-itens h3 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .meus-trabalhos .itens-container .txt-itens h3 span {
+        color: #fca311;
+    }
+
+    .meus-trabalhos .itens-container .txt-itens p {
+        margin-bottom: 15px;
+    }
+
+    .meus-trabalhos .itens-container .img-itens img {
+        width: 100%;
+    }
+
+    .meus-trabalhos .itens-container .item-1 {
+        order: 1;
+    }
+
+     .meus-trabalhos .itens-container .item-2 {
+        order: 0;
+    }
+
+    /* contatos */
+
+    .txt-contatos, .icons-contatos {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contatos .txt-contatos h1 {
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+
+    .contatos .txt-contatos h1 span {
+        font-weight: 800;
+        color: #fca311;
+    }
+
+    .contatos .txt-contatos p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .contatos .icons-contatos button{
+        width: 100%;
+    }
+
+    /* descrição */
+
+    .descricao h1 {
+        font-size: 40px;
+    }
+
+    .descricao h3 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    .descricao p {
+        font-size: 18px;
+    }
+
+    /* contratar */
+
+    .txt-contratar, .instrocoes {
+        display: block;
+        width: 100%;
+        
+    }
+
+    .contratar .txt-contratar {
+        position: static;
+    }
+
+    .contratar .txt-contratar h1 {
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .instrocoes .instru-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
+
+
+
+@media screen and (max-width: 450px) {
+
+    .container-box .box .box-txt {
+        text-align: center;
+    }
+
+    .container-box .box .box-txt h1 {
+        font-size: 40px !important;
+    }
+
+      .container-box .box .box-txt p {
+        font-size: 20px !important;
+        color: aqua;
+    }
+  
+}
+
+
+
 
