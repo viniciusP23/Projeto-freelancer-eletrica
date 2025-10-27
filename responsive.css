@@ -6,6 +6,10 @@
     .container-box .box .box-img img{
        margin-right: 100px;
     }
+
+    header .btn-menu-mob {
+    display: block;
+}
 }
 
 @media screen and (max-width: 900px) {
@@ -134,7 +138,6 @@
     }
 
 }
-
 
 
 @media screen and (max-width: 450px) {
