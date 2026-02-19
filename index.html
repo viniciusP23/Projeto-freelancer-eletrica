@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="shortcut icon" href="img/MC-elétrica.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- bootstrap -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!--  -->
 
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="responsive.css" media="screen">
     <title>MC Elétrica & Refrigeração</title>
 </head>
+
 <body>
 
     <header id="header">
         <div class="interface">
             <section class="logo">
-                <h3>LOGO</h3>
+                <!-- <h3>LOGO</h3> -->
+                <img src="img/MC-elétrica.png" alt="">
             </section>
 
             <section class="menu-desktop">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#servico">Serviços</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
                     </ul>
                 </nav>
             </section>
 
             <section class="contato">
-                <a href="#">
+                <a href="#contato">
                     <button>Contato</button>
                 </a>
             </section>
@@ -48,22 +54,22 @@
             <section class="menu-mobile" id="menu-mobile">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#servico">Serviços</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
                     </ul>
                 </nav>
             </section>
         </div>
     </header>
 
-    <section class="container-box">
+    <section class="container-box" id="home">
         <div class="interface">
             <div class="box">
                 <div class="box-txt">
                     <h1>MC Elétrica & Refrigeração</h1>
                     <p>TRANSFORMANDO SEU LAR</p>
-                    <button>Entrar em contato</button>
+                    <a href="#contato"><button>Entrar em contato</button></a>
                 </div>
                 <div class="box-img">
                     <img src="img/lampada.png" alt="img-lampada">
@@ -72,34 +78,38 @@
         </div>
     </section>
 
-    <section class="meus-trabalhos">
+    <section class="meus-trabalhos" id="servico">
         <div class="interface">
 
             <div class="trabalhos">
                 <h1>Meus trabalhos</h1>
             </div>
-            
+
             <article class="itens-container">
                 <div class="txt-itens">
                     <h3>Instalações Elétricas<br> com <span>Segurança</span></h3>
                     <p>
-                        Cuidamos da parte elétrica da sua casa ou empresa com qualidade e segurança, 
+                        Cuidamos da parte elétrica da sua casa ou empresa com qualidade e segurança,
                         garantindo o bom funcionamento de todos os seus equipamentos.
                     </p>
                 </div>
                 <div class="img-itens">
-                    <img src="img/carro.png" alt="">
+                    <video autoplay muted loop playsinline>
+                        <source src="videos/Instalações-Elétricas.mp4">
+                    </video>
                 </div>
             </article>
 
             <article class="itens-container">
                 <div class="img-itens item-1">
-                    <img src="img/carro.png" alt="">
+                    <video autoplay muted loop playsinline>
+                        <source src="videos/Manutenção-Instalação.mp4">
+                    </video>
                 </div>
                 <div class="txt-itens item-2">
                     <h3><span>Manutenção</span> e Instalação <br>de Ar-Condicionado</h3>
                     <p>
-                        Instalamos, limpamos e realizamos manutenção completa para que o ar do seu 
+                        Instalamos, limpamos e realizamos manutenção completa para que o ar do seu
                         ambiente esteja sempre limpo e agradável.
                     </p>
                 </div>
@@ -109,18 +119,21 @@
                 <div class="txt-itens">
                     <h3><span>Automação</span> Residencial</h3>
                     <p>
-                        Controle iluminação, climatização e energia pelo celular. Conforto e praticidade na palma da sua mão.
+                        Controle iluminação, climatização e energia pelo celular. Conforto e praticidade na palma da sua
+                        mão.
                     </p>
                 </div>
                 <div class="img-itens">
-                    <img src="img/carro.png" alt="">
+                    <video autoplay muted loop playsinline>
+                        <source src="videos/Automação-Residencial.mp4">
+                    </video>
                 </div>
             </article>
 
         </div>
     </section>
 
-    <section class="contratar">
+    <section class="contratar" id="sobre">
         <div class="interface">
 
             <div class="txt-contratar">
@@ -136,7 +149,8 @@
 
                     <div class="txt-instru-box">
                         <h4>Profissionais qualificados</h4>
-                        <p>Nossa equipe é formada por técnicos experientes e certificados, prontos para realizar cada serviço com segurança, precisão e cuidado com o seu patrimônio.</p>
+                        <p>Nossa equipe é formada por técnicos experientes e certificados, prontos para realizar cada
+                            serviço com segurança, precisão e cuidado com o seu patrimônio.</p>
                     </div>
                 </article>
 
@@ -147,7 +161,8 @@
 
                     <div class="txt-instru-box">
                         <h4>Serviço rápido e garantido</h4>
-                        <p>Sabemos que imprevistos acontecem. Por isso, garantimos um atendimento ágil e soluções eficientes para que você volte à sua rotina o quanto antes.</p>
+                        <p>Sabemos que imprevistos acontecem. Por isso, garantimos um atendimento ágil e soluções
+                            eficientes para que você volte à sua rotina o quanto antes.</p>
                     </div>
                 </article>
 
@@ -158,7 +173,8 @@
 
                     <div class="txt-instru-box">
                         <h4>Atendimento personalizado</h4>
-                        <p>Cada cliente tem uma necessidade diferente. Por isso, nosso atendimento é direto, humano e adaptado ao que você realmente precisa.</p>
+                        <p>Cada cliente tem uma necessidade diferente. Por isso, nosso atendimento é direto, humano e
+                            adaptado ao que você realmente precisa.</p>
                     </div>
                 </article>
 
@@ -167,32 +183,40 @@
         </div>
     </section>
 
-    <section class="contatos">
+    <section class="contatos" id="contato">
         <div class="interface">
 
-           <article class="txt-contatos">
+            <article class="txt-contatos">
                 <h1>Fale agora com a<br> <span>nossa equipe</span></h1>
                 <p>E solicite um orçamento que cabe no bolso</p>
-           </article> 
+            </article>
 
-           <article class="icons-contatos">
+            <article class="icons-contatos">
 
-                <a href="#">
-                    <button><i class="bi bi-whatsapp"></i><p>Whatsapp</p></button>
+                <a href="https://wa.me/5514998169600" target="_blank">
+                    <button><i class="bi bi-whatsapp"></i>
+                        <p>Whatsapp</p>
+                    </button>
                 </a>
 
                 <a href="#">
-                    <button><i class="bi bi-envelope-at"></i><p>E-mail</p></button>
+                    <button><i class="bi bi-envelope-at"></i>
+                        <p>E-mail</p>
+                    </button>
                 </a>
 
-                <a href="#">
-                    <button><i class="bi bi-telephone"></i><p>Ligar</p></button>
+                <a href="tel:+5514998169600">
+                    <button><i class="bi bi-telephone"></i>
+                        <p>Ligar</p>
+                    </button>
                 </a>
 
-                <a href="#">
-                    <button><i class="bi bi-ui-radios"></i><p>Formulário</p></button>
+                <a href="http://127.0.0.1:5500/formulario.html?" target="_blank">
+                    <button><i class="bi bi-ui-radios"></i>
+                        <p>Formulário</p>
+                    </button>
                 </a>
-           </article>
+            </article>
 
         </div>
     </section>
@@ -201,7 +225,8 @@
         <div class="interface">
             <h1>Deixe com a gente</h1>
             <h3>Serviços elétricos e refrigeração com qualidade garantida.</h3>
-            <p>Instalações, manutenções e reparos feitos com segurança e excelência por profissionais especializados.</p>
+            <p>Instalações, manutenções e reparos feitos com segurança e excelência por profissionais especializados.
+            </p>
 
             <div class="icons-descricao">
                 <p><i class="bi bi-house-gear-fill"></i></p>
@@ -217,9 +242,10 @@
     <footer>
         <div class="interface">
             <section class="top-footer">
-                <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                <a href="#"><button><i class="bi bi-facebook"></i></button></a>
-                <a href="#"><button><i class="bi bi-tiktok"></i></button></a>
+                <a href="https://www.instagram.com/mceletricaerefrigeracao?igsh=MWRpeHpsYjZ3cmx4Zw=="
+                    target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                <a href="https://www.facebook.com/share/18LUquCbqm/?mibextid=wwXIfr" target="_blank"><button><i
+                            class="bi bi-facebook"></i></button></a>
             </section>
         </div>
 
@@ -229,7 +255,8 @@
     </footer>
 
 
-    
+
 </body>
 <script src="script.js"></script>
+
 </html>

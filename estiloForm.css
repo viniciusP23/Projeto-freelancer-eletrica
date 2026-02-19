@@ -37,7 +37,7 @@ input::placeholder {
     width: 100%;
     padding: 1rem;
     border-radius: 8px;
-    color: #dedede;
+    color: #000000;
     border: 1px solid #000;
     outline: none;
 }
@@ -60,4 +60,5 @@ input::placeholder {
 
 .btn-form:hover {
     transform: translateY(-4px);
+    transition: 0.5s;
 }
